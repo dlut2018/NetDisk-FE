@@ -6,6 +6,7 @@ setInterval(tick,4000)
 function tick(){
     const element = (
         <div>
+            <h1>My Disk</h1>
             <h1>{new Date().toLocaleString()}</h1>
         </div>
     );
